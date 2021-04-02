@@ -1,0 +1,456 @@
+{
+	"name": "SQLOutputTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "National_Provider_Identifier",
+				"type": "varchar"
+			},
+			{
+				"name": "Last_Name_Organization_Name_of_the_Provider",
+				"type": "varchar"
+			},
+			{
+				"name": "First_Name_of_the_Provider",
+				"type": "varchar"
+			},
+			{
+				"name": "Middle_Initial_of_the_Provider",
+				"type": "varchar"
+			},
+			{
+				"name": "Credentials_of_the_Provider",
+				"type": "varchar"
+			},
+			{
+				"name": "Gender_of_the_Provider",
+				"type": "varchar"
+			},
+			{
+				"name": "Entity_Type_of_the_Provider",
+				"type": "varchar"
+			},
+			{
+				"name": "Street_Address_1_of_the_Provider",
+				"type": "varchar"
+			},
+			{
+				"name": "Street_Address_2_of_the_Provider",
+				"type": "varchar"
+			},
+			{
+				"name": "City_of_the_Provider",
+				"type": "varchar"
+			},
+			{
+				"name": "Zip_Code_of_the_Provider",
+				"type": "varchar"
+			},
+			{
+				"name": "Provider_RUCA",
+				"type": "varchar"
+			},
+			{
+				"name": "State_Code_of_the_Provider",
+				"type": "varchar"
+			},
+			{
+				"name": "Country_Code_of_the_Provider",
+				"type": "varchar"
+			},
+			{
+				"name": "Provider_Type_of_the_Provider",
+				"type": "varchar"
+			},
+			{
+				"name": "Medicare_Participation_Indicator",
+				"type": "varchar"
+			},
+			{
+				"name": "Number_of_HCPCS",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Number_of_Services",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Number_of_Medicare_Beneficiaries",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Total_Submitted_Charge_Amount",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Total_Medicare_Allowed_Amount",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Total_Medicare_Payment_Amount",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Total_Medicare_Standardized_Payment_Amount",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Drug_Suppress_Indicator",
+				"type": "varchar"
+			},
+			{
+				"name": "Number_of_HCPCS_Associated_With_Drug_Services",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Number_of_Drug_Services",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Number_of_Medicare_Beneficiaries_With_Drug_Services",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Total_Drug_Submitted_Charge_Amount",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Total_Drug_Medicare_Allowed_Amount",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Total_Drug_Medicare_Payment_Amount",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Total_Drug_Medicare_Standardized_Payment_Amount",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Medical_Suppress_Indicator",
+				"type": "varchar"
+			},
+			{
+				"name": "Number_of_HCPCS_Associated_With_Medical_Services",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Number_of_Medical_Services",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Number_of_Medicare_Beneficiaries_With_Medical_Services",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Total_Medical_Submitted_Charge_Amount",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Total_Medical_Medicare_Allowed_Amount",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Total_Medical_Medicare_Payment_Amount",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Total_Medical_Medicare_Standardized_Payment_Amount",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Average_Age_of_Beneficiaries",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Number_of_Beneficiaries_Age_Less_65",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Number_of_Beneficiaries_Age_65_to_74",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Number_of_Beneficiaries_Age_75_to_84",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Number_of_Beneficiaries_Age_Greater_84",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Number_of_Female_Beneficiaries",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Number_of_Male_Beneficiaries",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Number_of_Non_Hispanic_White_Beneficiaries",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Number_of_Black_or_African_American_Beneficiaries",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Number_of_Asian_Pacific_Islander_Beneficiaries",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Number_of_Hispanic_Beneficiaries",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Number_of_American_Indian_Alaska_Native_Beneficiaries",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Number_of_Beneficiaries_With_Race_Not_Elsewhere_Classified",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Number_of_Beneficiaries_With_Medicare_Only_Entitlement",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Number_of_Beneficiaries_With_Medicare_Medicaid_Entitlement",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Percent_of_Beneficiaries_Identified_With_Atrial_Fibrillation",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Percent_of_Beneficiaries_Identified_With_Alzheimers_Disease_or_Dementia",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Percent_of_Beneficiaries_Identified_With_Asthma",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Percent_of_Beneficiaries_Identified_With_Cancer",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Percent_of_Beneficiaries_Identified_With_Heart_Failure",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Percent_of_Beneficiaries_Identified_With_Chronic_Kidney_Disease",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Percent_of_Beneficiaries_Identified_With_Chronic_Obstructive_Pulmonary_Disease",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Percent_of_Beneficiaries_Identified_With_Depression",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Percent_of_Beneficiaries_Identified_With_Diabetes",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Percent_of_Beneficiaries_Identified_With_Hyperlipidemia",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Percent_of_Beneficiaries_Identified_With_Hypertension",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Percent_of_Beneficiaries_Identified_With_Ischemic_Heart_Disease",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Percent_of_Beneficiaries_Identified_With_Osteoporosis",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Percent_of_Beneficiaries_Identified_With_Rheumatoid_Arthritis_Osteoarthritis",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Percent_of_Beneficiaries_Identified_With_Schizophrenia_Other_Psychotic_Disorders",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Percent_of_Beneficiaries_Identified_With_Stroke",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Average_HCC_Risk_Score_of_Beneficiaries",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 4
+			},
+			{
+				"name": "Cumulative_Numberof_Medicare_Beneficiaries",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "Cumulative_TMMSPA",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "TempColumn",
+				"type": "varchar"
+			},
+			{
+				"name": "Sum_of_Medicare_Beneficaries",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Sum_of_Medicare_Payment",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 6
+			},
+			{
+				"name": "percentage_Cum_Num_of_Medicare_Ben",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 6
+			},
+			{
+				"name": "percentage_Cum_TMMSPA",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 6
+			},
+			{
+				"name": "Beneficiary_Segment",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Payment_Segment",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Medicare_Output_Table1"
+		}
+	}
+}
