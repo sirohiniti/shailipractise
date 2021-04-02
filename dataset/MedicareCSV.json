@@ -20,216 +20,287 @@
 		},
 		"schema": [
 			{
+				"name": "National Provider Identifier",
 				"type": "String"
 			},
 			{
+				"name": "Last Name/Organization Name of the Provider",
 				"type": "String"
 			},
 			{
+				"name": "First Name of the Provider",
 				"type": "String"
 			},
 			{
+				"name": "Middle Initial of the Provider",
 				"type": "String"
 			},
 			{
+				"name": "Credentials of the Provider",
 				"type": "String"
 			},
 			{
+				"name": "Gender of the Provider",
 				"type": "String"
 			},
 			{
+				"name": "Entity Type of the Provider",
 				"type": "String"
 			},
 			{
+				"name": "Street Address 1 of the Provider",
 				"type": "String"
 			},
 			{
+				"name": "Street Address 2 of the Provider",
 				"type": "String"
 			},
 			{
+				"name": "City of the Provider",
 				"type": "String"
 			},
 			{
+				"name": "Zip Code of the Provider",
 				"type": "String"
 			},
 			{
+				"name": "Provider RUCA",
 				"type": "String"
 			},
 			{
+				"name": "State Code of the Provider",
 				"type": "String"
 			},
 			{
+				"name": "Country Code of the Provider",
 				"type": "String"
 			},
 			{
+				"name": "Provider Type of the Provider",
 				"type": "String"
 			},
 			{
+				"name": "Medicare Participation Indicator",
 				"type": "String"
 			},
 			{
+				"name": "Number of HCPCS",
 				"type": "String"
 			},
 			{
+				"name": "Number of Services",
 				"type": "String"
 			},
 			{
+				"name": "Number of Medicare Beneficiaries",
 				"type": "String"
 			},
 			{
+				"name": "Total Submitted Charge Amount",
 				"type": "String"
 			},
 			{
+				"name": "Total Medicare Allowed Amount",
 				"type": "String"
 			},
 			{
+				"name": "Total Medicare Payment Amount",
 				"type": "String"
 			},
 			{
+				"name": "Total Medicare Standardized Payment Amount",
 				"type": "String"
 			},
 			{
+				"name": "Drug Suppress Indicator",
 				"type": "String"
 			},
 			{
+				"name": "Number of HCPCS Associated With Drug Services",
 				"type": "String"
 			},
 			{
+				"name": "Number of Drug Services",
 				"type": "String"
 			},
 			{
+				"name": "Number of Medicare Beneficiaries With Drug Services",
 				"type": "String"
 			},
 			{
+				"name": "Total Drug Submitted Charge Amount",
 				"type": "String"
 			},
 			{
+				"name": "Total Drug Medicare Allowed Amount",
 				"type": "String"
 			},
 			{
+				"name": "Total Drug Medicare Payment Amount",
 				"type": "String"
 			},
 			{
+				"name": "Total Drug Medicare Standardized Payment Amount",
 				"type": "String"
 			},
 			{
+				"name": "Medical Suppress Indicator",
 				"type": "String"
 			},
 			{
+				"name": "Number of HCPCS Associated With Medical Services",
 				"type": "String"
 			},
 			{
+				"name": "Number of Medical Services",
 				"type": "String"
 			},
 			{
+				"name": "Number of Medicare Beneficiaries With Medical Services",
 				"type": "String"
 			},
 			{
+				"name": "Total Medical Submitted Charge Amount",
 				"type": "String"
 			},
 			{
+				"name": "Total Medical Medicare Allowed Amount",
 				"type": "String"
 			},
 			{
+				"name": "Total Medical Medicare Payment Amount",
 				"type": "String"
 			},
 			{
+				"name": "Total Medical Medicare Standardized Payment Amount",
 				"type": "String"
 			},
 			{
+				"name": "Average Age of Beneficiaries",
 				"type": "String"
 			},
 			{
+				"name": "Number of Beneficiaries Age Less 65",
 				"type": "String"
 			},
 			{
+				"name": "Number of Beneficiaries Age 65 to 74",
 				"type": "String"
 			},
 			{
+				"name": "Number of Beneficiaries Age 75 to 84",
 				"type": "String"
 			},
 			{
+				"name": "Number of Beneficiaries Age Greater 84",
 				"type": "String"
 			},
 			{
+				"name": "Number of Female Beneficiaries",
 				"type": "String"
 			},
 			{
+				"name": "Number of Male Beneficiaries\t",
 				"type": "String"
 			},
 			{
+				"name": "Number of Non-Hispanic White Beneficiaries\t",
 				"type": "String"
 			},
 			{
+				"name": "Number of Black or African American Beneficiaries",
 				"type": "String"
 			},
 			{
+				"name": "Number of Asian Pacific Islander Beneficiaries",
 				"type": "String"
 			},
 			{
+				"name": "Number of Hispanic Beneficiaries",
 				"type": "String"
 			},
 			{
+				"name": "Number of American Indian/Alaska Native Beneficiaries",
 				"type": "String"
 			},
 			{
+				"name": "Number of Beneficiaries With Race Not Elsewhere Classified",
 				"type": "String"
 			},
 			{
+				"name": "Number of Beneficiaries With Medicare Only Entitlement",
 				"type": "String"
 			},
 			{
+				"name": "Number of Beneficiaries With Medicare & Medicaid Entitlement",
 				"type": "String"
 			},
 			{
+				"name": "Percent (%) of Beneficiaries Identified With Atrial Fibrillation",
 				"type": "String"
 			},
 			{
+				"name": "Percent (%) of Beneficiaries Identified With Alzheimer’s Disease or Dementia",
 				"type": "String"
 			},
 			{
+				"name": "Percent (%) of Beneficiaries Identified With Asthma",
 				"type": "String"
 			},
 			{
+				"name": "Percent (%) of Beneficiaries Identified With Cancer",
 				"type": "String"
 			},
 			{
+				"name": "Percent (%) of Beneficiaries Identified With Heart Failure",
 				"type": "String"
 			},
 			{
+				"name": "Percent (%) of Beneficiaries Identified With Chronic Kidney Disease",
 				"type": "String"
 			},
 			{
+				"name": "Percent (%) of Beneficiaries Identified With Chronic Obstructive Pulmonary Disease",
 				"type": "String"
 			},
 			{
+				"name": "Percent (%) of Beneficiaries Identified With Depression",
 				"type": "String"
 			},
 			{
+				"name": "Percent (%) of Beneficiaries Identified With Diabetes",
 				"type": "String"
 			},
 			{
+				"name": "Percent (%) of Beneficiaries Identified With Hyperlipidemia",
 				"type": "String"
 			},
 			{
+				"name": "Percent (%) of Beneficiaries Identified With Hypertension",
 				"type": "String"
 			},
 			{
+				"name": "Percent (%) of Beneficiaries Identified With Ischemic Heart Disease",
 				"type": "String"
 			},
 			{
+				"name": "Percent (%) of Beneficiaries Identified With Osteoporosis",
 				"type": "String"
 			},
 			{
+				"name": "Percent (%) of Beneficiaries Identified With Rheumatoid Arthritis / Osteoarthritis",
 				"type": "String"
 			},
 			{
+				"name": "Percent (%) of Beneficiaries Identified With Schizophrenia / Other Psychotic Disorders",
 				"type": "String"
 			},
 			{
+				"name": "Percent (%) of Beneficiaries Identified With Stroke",
 				"type": "String"
 			},
 			{
+				"name": "Average HCC Risk Score of Beneficiaries",
 				"type": "String"
 			}
 		]
